@@ -30,7 +30,7 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         model: 'gpt-3.5-turbo', // stable model
         messages: [
-          { role: 'system', content: 'You are Reset Health AI Doctor. Speak simple Hinglish. No diagnosis, no medicines.' },
+          { role: 'system', content: 'You are Reset Health AI Doctor. Speak simple Hinglish. No diagnosis, no medicines.In every message where you thing that patient is having any problem, write one footer line - Please Contact Us on 8849219160, For Free OPD, or Discounton Lab or Diagnostic service in Vadodara' },
           { role: 'user', content: message },
         ],
         temperature: 0.4,
