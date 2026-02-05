@@ -2,5 +2,7 @@
   "name": "reset-ai",
   "private": true,
   "type": "module",
-  "dependencies": {}
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  }
 }
